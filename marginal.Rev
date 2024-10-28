@@ -1,6 +1,6 @@
 burninGen = 20000
 runGen = 1200
-steps = 42
+steps = 51
 
 ppFile = "4817_by_nt_ki.pp"
 ppOut = "4817_by_nt_ki.out.pp"
