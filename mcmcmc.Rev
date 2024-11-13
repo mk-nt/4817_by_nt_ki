@@ -41,7 +41,7 @@ stopping_rules[1] = srMaxTime(71, "hours")
 # PSRF requires RevBayes 1.2.5
 #stopping_rules[3] = srGelmanRubin(1.01, paramFile, checkFreq)
 
-print("  - Commencing MCMCMC run at", time("year"), time("day"), time("seconds")))
+print("  - Commencing MCMCMC run at", time("year"), time("day"), time("seconds"))
 mymc3.run(rules = stopping_rules, checkpointFile = ckpFile, checkpointInterval = checkFreq)
 
 print("  # # # RUN COMPLETE # # #  ")
